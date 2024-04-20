@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./menu-responsivo/assets/css/style.css">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <input type="checkbox" class="menu-faketrigger"/>
+
+            <div class="menu-lines">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="">Minha Conta</a></li>
+                <li><a href="">Meus Dados</a></li>
+                <li><a href="">Meus Pedidos</a></li>
+                <li><a href="">Protocolos e Atendimentos</a></li>
+                <li><a href="">Favoritos</a></li>
+                <li><a href="">Sair</a></li>
+            </ul>
+
+        </nav>
+
+        <main>
+            <h1>InfinityShop</h1>
+            <h5>Descrição do site</h5>
+        </main>
+        
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="./menu-responsivo/assets/img/logo_empresa_cor.png" alt="Logo Infinity Shop">
+            </div>
+
+            <div class="barra">
+                <input class="pesquisa" placeholder="Pesquisar produto.">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="./menu-responsivo/assets/img/login.png">Cadastre-se/Entrar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">|</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="./menu-responsivo/assets/img/carrinho.png" alt="Carrinho"> Carrinho</a></li>
+                </ul>
+            </div>
+            
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./menu-responsivo/assets/img/icon.svg"></button>
+            </div>
+
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link"><img src="./menu-responsivo/assets/img/login.png">Cadastre-se/Entrar</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">|</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><img src="./menu-responsivo/assets/img/carrinho.png" alt="Carrinho"> Carrinho</a></li> 
+            </ul>
+
+            <div class="barra">
+                <input class="pesquisa" placeholder="Pesquisar produto.">
+            </div>
+
+        </div>
+    </header>
+    <script src="./menu-responsivo/assets/js/script.js"></script>
+    
+</body>
+</html>
